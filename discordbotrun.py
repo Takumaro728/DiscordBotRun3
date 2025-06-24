@@ -118,4 +118,4 @@ async def reset(interaction: discord.Interaction):
     await interaction.response.send_message("🗑️ データを初期化しました")
 
 # 実行
-bot.run(TOKEN)
+bot.run(DISCORD_TOKEN)
